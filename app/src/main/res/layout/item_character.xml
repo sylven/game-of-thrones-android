@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="250dp"
+    android:layout_margin="3dp"
+    card_view:cardBackgroundColor="@color/darkGrey"
+    card_view:cardCornerRadius="4dp">
+
+    <com.fmsirvent.ParallaxEverywhere.PEWImageView
+        android:id="@+id/iv_bg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        />
+
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="bottom"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:layout_marginBottom="3dp"
+        tools:text="Jhon Snow"
+        android:shadowColor="@color/black"
+        android:shadowDx="1"
+        android:shadowDy="1"
+        android:shadowRadius="1.5"
+        android:textSize="18sp"
+        />
+
+</androidx.cardview.widget.CardView>
