@@ -19,5 +19,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name="com.silviuchirvasa.gameofthrones.CharacterDetailActivity"
+            android:windowSoftInputMode="stateAlwaysHidden">
+        </activity>
     </application>
 </manifest>
